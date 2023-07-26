@@ -1,0 +1,88 @@
+
+
+@font-face{
+    src: url(Fonts/CoffeetinInitials-YXJ2.ttf) format('truetype');
+    font-family: 'BlackJack';
+}
+
+@font-face{
+    src: url(Fonts/JqkasWild-w1YD6.ttf) format('truetype');
+    font-family: 'JqkasWild';
+}
+
+@font-face{
+    src: url(Fonts/Poker.ttf) format('truetype');
+    font-family: 'Poker';
+}
+
+@font-face{
+    src: url(Fonts/PokerKingsRegular-36K8.ttf) format('truetype');
+    font-family: 'PokerKing';
+}
+
+body{
+    background-image: url(blackjack-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 550px;
+    border: 3px solid rgb(77, 77, 77);
+    padding: 20px;
+    margin: 0px auto;
+    border-radius: 16px;
+}
+#title-el{
+    font-family: 'BlackJack';
+    font-size: 60px;
+    text-align: center;
+    background: linear-gradient(180deg,black, rgb(77, 33, 33), rgb(188, 24, 24));
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+    text-shadow: 5px 5px 3px rgba(231, 154, 154, 0.208);
+  
+}
+
+#msg-el{
+    font-family: PokerKing; 
+    font-size: 36px;
+    text-align: center;
+}
+
+#sum-el{
+    text-shadow: 0px 3px 3px rgba(47, 47, 47, 0.5);
+}
+.text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: rgb(72, 72, 72);
+    text-align: center;
+    line-height:38px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    margin: 30px 0px;
+}
+
+button{
+    font-size: 1.4rem;
+    font-family: PokerKing;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(60deg, rgb(57, 57, 57), rgba(238, 70, 70, 0.927),rgb(124, 124, 124),rgba(60, 60, 60, 0.992));
+    border: 3px solid black;
+    color: black;
+}
+
+button:hover{
+    font-size: 1.6rem;
+    cursor: pointer;
+    box-shadow: 1px 0px 8px 2px #3e3e3e;
+}
+
